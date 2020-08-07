@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="top mt-5">
+            <h5 class="text-uppercase">Tous nos articles !</h5>
+            <hr>
+        </div>
+        <div class="row mb-5">
+        {% include('article/_card.html.twig') %}
+        </div>
+    </div>
+{% endblock %}

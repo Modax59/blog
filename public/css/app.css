@@ -1,0 +1,44 @@
+:root{
+    --bleu-color: #4362FF;
+    --noir-color: #2B2A35;
+    --gris-color: #545465;
+}
+.navbar{
+    font-family: Helvetica, sans-serif;
+}
+body{
+    font-family: Helvetica, serif;
+}
+.navbar-font{
+    font-size: 16px!important;
+}
+.button-login{
+    background-color: white;
+}
+.button-login:hover{
+    background-color: white;
+}
+.titre-article{
+    text-decoration: none!important;
+    color: var(--noir-color);
+    transition: color .3s!important;
+}
+.button-inscription:hover{
+    background-color: var(--bleu-color)!important;
+}
+.titre-article:hover{
+color: var(--bleu-color)!important;
+}
+.card-title{
+    font-size: 27px;
+}
+.p-description{
+    color: var(--gris-color)!important;
+}
+.image-card{
+    opacity: 1;
+    transition: opacity .5s;
+}
+.image-card:hover{
+    opacity: .8!important;
+}
